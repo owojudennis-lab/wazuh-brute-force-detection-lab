@@ -121,7 +121,7 @@ for i in {1..10}; do xfreerdp /v:192.168.56.107 /u:Administrator /p:wrongpass +a
 
 ---
 ---
-<img scr="Attack code for sismulation of login attempts.png">
+<img src="Attack code for sismulation of login attempts.png">
 ---
 
 # 📊 Detection Results
@@ -147,6 +147,9 @@ After repeated login failures:
 The custom rule successfully escalated repeated failures into a high-severity brute-force alert.
 
 ---
+---
+<img src="Custom wazuh rukes detected on the dashboard.png">
+---
 
 # 🌐 Source IP Visibility
 
@@ -161,6 +164,9 @@ This confirmed that:
 * The attack originated from the Kali attacker machine
 * Wazuh successfully captured external attacker metadata
 
+---
+---
+<img src="Custom rule detected the failed login attempts.png">
 ---
 
 # ⚠️ Challenges Encountered
