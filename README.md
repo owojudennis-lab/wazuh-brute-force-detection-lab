@@ -24,6 +24,7 @@ The lab simulated a realistic blue-team workflow involving:
 
 ---
 
+
 # 🧰 Lab Environment
 
 | Component               | Purpose          |
@@ -118,6 +119,9 @@ Command used:
 for i in {1..10}; do xfreerdp /v:192.168.56.107 /u:Administrator /p:wrongpass +auth-only /cert:ignore; done
 ```
 
+---
+---
+<img scr="Attack code for sismulation of login attempts.png">
 ---
 
 # 📊 Detection Results
